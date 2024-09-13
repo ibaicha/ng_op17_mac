@@ -17,11 +17,7 @@ import * as fromOps from '../../../store/op';
 import * as fromPointAgences from '../../../store/point_agence';
 import * as fromChargeExploitations from '../../../store/charge_exploitation';
 
-import {
-  HttpClient,
-  HttpHeaders,
-  HttpErrorResponse,
-} from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { ICampagne } from '../../../interfaces/campagne.interface';
 import { LoginService } from '../../../services/login.service';
 import { IVariete } from '../../../interfaces/filiere.interface';

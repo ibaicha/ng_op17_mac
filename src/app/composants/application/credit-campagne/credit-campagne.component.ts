@@ -110,7 +110,11 @@ interface AutoCompleteCompleteEvent {
   templateUrl: './credit-campagne.component.html',
   styleUrls: ['./credit-campagne.component.css'],
   imports: [
-    HttpClientModule,
+    
+// TODO: `HttpClientModule` should not be imported into a component directly.
+// Please refactor the code to add `provideHttpClient()` call to the provider list in the
+// application bootstrap logic and remove the `HttpClientModule` import from this component.
+HttpClientModule,
     ProgressSpinnerModule,
     ProgressBarModule,
     ButtonModule,

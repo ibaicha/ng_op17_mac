@@ -12,8 +12,8 @@ export class AppService {
   // private serviceURL = 'http://192.168.43.97:80OO/';
   // private serviceURL = 'http://localhost:8000/';
   // private serviceURL = 'http://172.20.10.3:3000';
-  // private serviceURL = 'http://192.168.1.9:3000';
-  private serviceURL = 'http://172.16.1.127:3000';
+  private serviceURL = 'http://192.168.1.2:3000';
+  // private serviceURL = 'http://172.16.1.127:3000';
 
   public body = {};
   public myHeader = new HttpHeaders().set(
